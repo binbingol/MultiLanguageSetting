@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MultiLanguageTestFlight1</string>
+    <string name="preference">Preference</string>
+
+    <string name="preferenceheadertitle">简体字 Preference 分段</string>
+    <string name="preferenceheadersummary">简体字 一些 preferences 的例子</string>
+    <string name="preferencetitle">语言</string>
+    <string name="preferencesummary">中文（简体）</string>
+
+    <string name="opentext">简体字 你好!</string>
+
+    <!--<string name="action_english">English</string>-->
+    <!--<string name="action_simplifiedChinese">简体</string>-->
+    <!--<string name="action_traditionalChinese">繁体</string>-->
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory
+        android:title="@string/preferencetitle"
+        android:key="language_settings">
+
+        <ListPreference
+            android:key="language"
+            android:title="@string/preferencetitle"
+            android:summary="@string/preferencesummary"
+            android:defaultValue="English "
+            android:entries="@array/Languages"
+            android:entryValues="@array/LanguagesValues"/>
+        <!--android:enabled="true"-->
+        <!--android:selectable="true"-->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

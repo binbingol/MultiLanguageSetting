@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MultiLanguageTestFlight1</string>
+    <string name="preference">Preference</string>
+
+    <string name="preferenceheadertitle">Preference Fragment</string>
+    <string name="preferenceheadersummary">An example of some preferences.</string>
+    <string name="preferencetitle">Language</string>
+    <string name="preferencesummary">English</string>
+
+    <string name="opentext">Hello World!</string>
+
+    <!--<string name="action_english">English</string>-->
+    <!--<string name="action_simplifiedChinese">简体</string>-->
+    <!--<string name="action_traditionalChinese">繁体</string>-->
+</resources>

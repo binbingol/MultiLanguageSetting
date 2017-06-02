@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Languages">
+        <item>English</item>
+        <item>Simplified Chinese</item>
+        <item>Traditional Chinese</item>
+    </string-array>
+
+    <string-array name="LanguagesValues">
+        <item>"en"</item>
+        <item>"zh-rCN"</item>
+        <item>"zh-rTW"</item>
+    </string-array>
+
+</resources>

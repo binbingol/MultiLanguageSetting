@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="First category">
+        <Preference
+            android:persistent="false"
+            android:summary="This is just a normal preference"
+            android:title="Preference" />
+        <Preference
+            android:enabled="false"
+            android:persistent="false"
+            android:summary="This is just a disabled preference"
+            android:title="Preference 2" />
+        <CheckBoxPreference
+            android:persistent="false"
+            android:summary="It's a checkbox"
+            android:title="CheckBoxPreference" />
+        <SwitchPreferenceCompat
+            android:persistent="false"
+            android:summary="It's a switch"
+            android:title="SwitchPreference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="PreferenceCategory using preference_fallback_accent_color below API 21">
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Another category">
+        <EditTextPreference
+            android:inputType="phone"
+            android:key="edit_text_test"
+            android:persistent="false"
+            android:summary="It should be a phone input (it is now!)"
+            android:title="EditTextPreference" />
+        <EditTextPreferenceFix
+            android:inputType="phone"
+            android:key="edit_text_fix_test"
+            android:persistent="false"
+            android:summary="It's an input for phone numbers only"
+            android:title="EditTextPreferenceFix" />
+        <PreferenceScreen
+            android:key="preference_screen_test"
+            android:persistent="false"
+            android:title="PreferenceScreen test">
+            <Preference
+                android:persistent="false"
+                android:title="A preference" />
+            <SwitchPreferenceCompat
+                android:persistent="false"
+                android:summary="But this is a SwitchPreferenceCompat"
+                android:title="Another one" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

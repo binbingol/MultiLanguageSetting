@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<style name="Theme.MyTheme" parent="@style/PreferenceFixTheme.Light.NoActionBar">-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--&lt;!&ndash; If you find the preference categories' bottom margin too big, uncomment this &ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="preferenceCategory_marginBottom">0dp</item>&ndash;&gt;-->
+    <!--</style>-->
+
+    <!--<style name="SettingsPreferenceFragment" parent="@style/PreferenceFixTheme">-->
+        <!--&lt;!&ndash;<item name="preferenceTheme">@style/PreferenceThemeOverlay</item>&ndash;&gt;-->
+        <!--<item name="preferenceTheme">@style/PreferenceThemeOverlay</item>-->
+        <!--&lt;!&ndash;<item name="android:windowBackground">@android:color/white</item>&ndash;&gt;-->
+    <!--</style>-->
+
+    <!--<style name="PreferenceTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">-->
+        <!--<item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>-->
+    <!--</style>-->
+</resources>

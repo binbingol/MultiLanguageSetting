@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="language_header"
+    android:persistent="false">
+
+    <PreferenceCategory
+        android:title="@string/preferencetitle"
+        android:persistent="false">
+
+        <PreferenceScreen
+            android:key="language_setting"
+            android:title="@string/preferencetitle"
+            android:summary="@string/preferencesummary"
+            android:persistent="false">
+
+            <com.example.penghong.multilanguagetestflight1.CustomLanguagePreference
+                android:key="language_en"
+                android:title="English"
+                android:persistent="false"/>
+            <com.example.penghong.multilanguagetestflight1.CustomLanguagePreference
+                android:key="language_zh_rCN"
+                android:title="中文（简体）"
+                android:persistent="false"/>
+            <com.example.penghong.multilanguagetestflight1.CustomLanguagePreference
+                android:key="language_zh_rTW"
+                android:title="中文（繁體）"
+                android:persistent="false"/>
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
